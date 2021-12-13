@@ -1,0 +1,3 @@
+* 해 보기
+- example_pub --> example_sub
+- example02_pub --> example_sub
