@@ -1,0 +1,15 @@
+ 
+~/ros1/test_ws $ pwd
+/home/rapa00/Develops/ros1/test_ws
+~/ros1/test_ws $ cd src
+~/ros1/test_ws $ catkin create pkg test_pkg
+Creating package "test_pkg" in "/home/rapa00/Develops/ros1/test_ws/src"...
+Created file test_pkg/package.xml
+Created file test_pkg/CMakeLists.txt
+Successfully created package files in /home/rapa00/Develops/ros1/test_ws/src/test_pkg.
+~/ros1/test_ws $ cd ../
+~/ros1/test_ws $ pwd
+/home/rapa00/Develops/ros1/test_ws
+~/ros1/test_ws $ catkin build
+~/ros1/test_ws $ source ./devel/setup.bash
+
