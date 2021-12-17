@@ -1,0 +1,11 @@
+<launch>
+  <arg name="group0"/> 
+    <group ns="$(arg group0)">
+        <node name="turtlesim_node" pkg="turtlesim"  type="turtlesim_node" respawn="true" />
+        <node name="turtle_teleop_key_node" pkg="turtlesim" type="turtle_teleop_key" output="screen" />
+    </group>
+    <group ns="group2">
+        <node name="turtlesim_node" pkg="turtlesim"  type="turtlesim_node" respawn="true" />
+        <node name="turtle_teleop_key_node" pkg="turtlesim" type="turtle_teleop_key" output="screen" />
+    </group>
+</launch>

@@ -1,0 +1,7 @@
+거리 = 속력 * 시간 구하는 service
+* 해 보기
+- meg : 속력, 시간 --> 거리
+- input 속력, 시간 / result : 거리
+
+* 더 해보기
+- radian 구하는 service
