@@ -7,4 +7,4 @@ if __name__ == '__main__':
 
     add_two_ints = rospy.ServiceProxy('addtwo',addtwoints)
     result = add_two_ints(3,4)
-    print(result)
+    print(result.result)    # result is class
